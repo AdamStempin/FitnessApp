@@ -7,4 +7,20 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="App\084e259c112c1ab28ce8f7b8026e6f32.png" />
+    <None Remove="App\images-removebg-preview.png" />
+    <None Remove="App\images.png" />
+    <None Remove="App\user-removebg-preview.png" />
+    <None Remove="App\user.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="App\084e259c112c1ab28ce8f7b8026e6f32.png" />
+    <Resource Include="App\images-removebg-preview.png" />
+    <Resource Include="App\images.png" />
+    <Resource Include="App\user-removebg-preview.png" />
+    <Resource Include="App\user.jpg" />
+  </ItemGroup>
+
 </Project>
